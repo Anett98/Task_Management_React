@@ -1,0 +1,22 @@
+.projects{
+    border: 2px solid #5D345C;
+    margin: 10px;
+    text-align: start;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+.EditBtn{
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #5D345C;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #5D345C;
+}
+.EditBtn:hover{
+    background-color: #3a2139;
+    border-color: #3a2139;
+}

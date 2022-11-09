@@ -1,0 +1,107 @@
+/* .popUp{
+    border: 1px solid black;
+   height: 300px;
+   width: 400px;
+   background-color: white;
+}
+div{
+    
+}
+.close{
+    right: 1px;
+} */
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    min-height: 200px;
+    box-shadow: 0 8px 8px #5d345cb0;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.popUp{
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100vw;
+    max-height: 100vw;
+    background-color: rgba(0, 0, 0, 0.884);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+  background-color: white;
+  width: 450px;
+  height: 50px;
+  font-size: 20px;
+  border: 2px solid  #5D345C;
+}
+#text{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.closeButtonDiv{
+    background-color: white;
+    display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
+button{
+    background-color: white;
+    font: #5D345C;
+    cursor: pointer;
+}
+.inps{
+    background-color: white;
+    margin-top: 60px;
+}
+.selectOpt{
+    font-size: 24px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.selection{
+    height: 50px;
+    width: 268px;
+    margin-left: 15px;
+    border-color: #5D345C;
+    border-width: 2px;
+    font-size: 24px;
+
+}
+
+.inpDiv {
+    background-color: white; 
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.close{
+    top: 10px;
+    border: none;
+    font-weight: 900;
+    font-size: 24px;
+}
+.save{
+    border: none;
+    background-color: #5D345C;
+    color: white;
+    height: 40px;
+    width: 80px;
+    font-size: 24px;
+}
+.buttonDiv{
+    background-color: white;
+}
